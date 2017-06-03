@@ -2,7 +2,7 @@
 
 \usepackage{geometry}
 \usepackage{titlesec}
-
+\usepackage{tabu}
 \geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.4in,rmargin=1.4in}
 
 \titleformat{\section}
@@ -26,27 +26,30 @@
 % Playing music in a room
 % Go to room first to take shoes off
 
+
 \begin{document}
 	\begin{center}
 		{\Large Apartment Rules and Regulations}
 	\end{center}
 \begin{center}
 	
-	{\normalsize  A.R.R.}
+	{\normalsize  A.R.R.}\\
+	Last Modified: \today
 \end{center}
 \hrule height .1mm
 
 \vspace{.5cm}
-
 \noindent This Agreement is dated and in effect as of the \dateEffective, between these parties:\\
 \\
 \begin{center}
-	\begin{tabular}{ c c c }
-		{\bf \personOne} & {\bf \personTwo} & {\bf \personThree}\\
-		{\bf {\bf \personFour}} & {\bf \personFive} & {\bf \personSix}
-	\end{tabular}
-\end{center}
 
+\begin{tabu} to 0.8\textwidth {  X[l]  X[c]  X[r]  }
+	{\bf \personOne} & {\bf \personTwo} & {\bf \personThree}\\
+	{\bf {\bf \personFour}} & {\bf \personFive} & {\bf \personSix}\\
+\end{tabu}
+
+
+\end{center}
 \noindent (hereinafter the ``Client'', ``tenant'', or ``any party'')\\ \\
 
 \noindent This contract governs how the contracting parties behave in this apartment with mailing address 055 Cerro Vista Circle, San Luis Obispo California, 93410-1702 (henceforth called ``this apartment'' or ``the apartment''). This contract shall become effective (the ``Effective Date'') upon the date all of the contracting parties (hence forth called the ``tenant'' or ``any party'') have signed this document. This document shall stay in effect until the \dateNullification\space at 11:59:59 PM, at which point this Contract will terminate.
@@ -69,7 +72,7 @@
 	\s{\personFive}{Party 5}\hfil
 	\s{\personSix}{Party 6}}
 \newpage
-\section{Footwear}
+\section{Footwear} \label{Footwear}
 This section covers the protocol with respect to footwear in and around the apartment.
 \begin{enumerate}
 	\item Once entering the apartment, all footwear will be removed.
@@ -87,12 +90,12 @@ This section covers the protocol with respect to footwear in and around the apar
 	
 \end{enumerate}
 
-\section{Kitchen}
+\section{Kitchen} \label{Kitchen}
 This section covers the protocol with respect to cleaning and maintain the apartment kitchen.
 \begin{enumerate}
 	\item Once a dish is used, it may be kept in the sink for no longer than twenty-four hours.
 	\item If the preparation of the dish requires use of any other tools, each tool will also be cleaned and placed in the drying rack no more than twenty-four hours after the previously stated tool is used. 
-	\item Should any part of the countertop, stovetop, or table (either kitchen table or coffee table) be used to place any dish or tool used, it must be cleaned no more than twenty-four hours after use.
+	\item Should any part of the counter top, stove top, or table (either kitchen table or coffee table) be used to place any dish or tool used, it must be cleaned no more than twenty-four hours after use.
 	\item If any food should spill (either on the ground, or any other surface) it will be wiped up immediately.
 	\item Should Any dish be broken, it will be replaced within a timely manner.
 	\item When a roll of paper towel is completely used, it must be replaced immediately.
@@ -106,7 +109,7 @@ This section covers the protocol with respect to cleaning and maintain the apart
 	
 \end{enumerate}
 
-\section{Cleanliness}
+\section{Cleanliness} \label{Cleanliness}
 Clean is defined as all personal property each tenant is in that tenant’s university assigned room, trash is removed, floors are swept, counters and bathrooms are cleaned off and no junk or trash is visible except for in the designated trash receptacles. No food or food remnants will be left in the apartment, the refrigerator and stove will "wiped down" and there will be no crusted over food or spills. The bathrooms will be in a clean state and free of excrement and urine in the toilets.
 \begin{enumerate}
 	\item No personal artifacts will be kept in the common areas.
@@ -123,7 +126,8 @@ Clean is defined as all personal property each tenant is in that tenant’s univ
 	\item A permanent fixture of the apartment is defined as: Any object that was originally in the apartment on move-in day, or a product that was purchased for the entire apartment to use (i.e. the television, etc.)
 	\subitem Food is not considered a permanent fixture.
 \end{enumerate}
-\section{Noise}
+
+\section{Noise} \label{Noise}
 \begin{enumerate}
 	\item No excessive sounds are permitted any time of the day. As the time of day changes, what is considered excessive changes. For instance, it is acceptable to play the stereo at 12:00:00 PM, but not in the night when one of the tenants are sleeping.
 	\item Screaming is prohibited any time of the day, except during emergencies.
@@ -137,14 +141,12 @@ Clean is defined as all personal property each tenant is in that tenant’s univ
 \begin{enumerate}
 	\item Sleeping is defined as once any tenant enters their university assigned bedroom at night with the intent to sleep.
 \end{enumerate}
-\section{Water Pitcher}
-\begin{enumerate}
-	\item The water pitcher level shall always be above the green line. Should the water level fall below the green line on the water pitcher, the person or persons who used the water must fill the water to the top of the water pitcher.
-\end{enumerate}
+\section{Water Pitcher} \label{Water Pitcher}
+	The water pitcher level shall always be above the green line. Should the water level fall below the green line on the water pitcher, the person or persons who used the water must fill the water to the top of the water pitcher.
 
 
 %WINTER POLICY
-\section{Thermostat}
+\section{Thermostat} \label{Thermostat}
 The thermostat shalt be set to sixty-nine, no more, no less. Sixty-nine shall be the number thou shalt set the thermostat, and the temperature setting of the thermostat shall be sixty-nine. Seventy shalt thou not set the temperature, neither set to sixty-eight, excepting that thou then proceed to sixty-nine. Seventy-One is right out. Once the number sixty-nine, being the sixty-ninth degree, be reached, then release thine hands from the thermostat.
 \begin{enumerate}
 	\item Should any window be open in the main living area of the apartment, the thermostat heat setting will be set to the ‘off’ position. The fan position can either be set to ‘auto’ or ‘on’.
@@ -152,10 +154,26 @@ The thermostat shalt be set to sixty-nine, no more, no less. Sixty-nine shall be
 	
 \end{enumerate}
 
-%outloud 
-\section{Music}
-The Spotify® playlist called ‘Key’s to success’ will be banned from being played in the apartment. Any music in this playlist will also be banned.
-\section{Venmo and Reimbursement}
+\section{Music} \label{Music}
+Music may be played in the apartment, but should the majority of the tenants not want to listen to the previously stated music, then the offending person shall listen to their music through headphones.
+\begin{enumerate}
+\item Music is permitted in the bathroom, but do not play it too loudly.
+\item Should any tenant wish to play music in their university appointed bedroom out loud, that music, once the door is closed, can only be heard, but the actual music cannot be discerned. 
+\end{enumerate}
+
+\section{Visitors and Guests} \label{Visitors and Guests}
+Visitors are permitted in the apartment given that they follow the following regulations
+
+\begin{enumerate}
+	\item Guests must follow:
+	\subitem \S \ref{Footwear}, Footwear
+	\subitem \S \ref{Noise}, Noise
+	\subitem \S \ref{Music}, Music
+	\item Please note that the noise regulations are of the greatest importance to be followed and visitors, especially those that visit at night must be respectful of the other tenants.
+	
+\end{enumerate}
+
+\section{Venmo and Reimbursement} \label{Venmo and Reinbursement}
 This section covers the protocol for how to pay back any party.
 \begin{enumerate}
 	\item Should one contracting party purchase goods for the apartment, and place a charge in Splitwise or Venmo to get reimbursed for the charge, all other members must pay back the amount indicated on Splitwise within seven days.
@@ -164,9 +182,15 @@ This section covers the protocol for how to pay back any party.
 	
 \end{enumerate}
 
-\newpage
-\section{Breach of Contract}
-This section covers the ramifications of a contract breach for any of the contracting members
+% \newpage
+\section{Breach of Contract} \label{Breach of Contract}
+This section covers the ramifications of a contract breach for any of the contracting members.
+\\\\
+While serious ramifications are not possible due to the nature of this housing situation, some sort of punishment is in order.
+
+With this in mind, it seems that the only appropriate form of punishment (at least for the lesser violations) is some sort of baking. Any violator must bake some sort of delicious treat.
+\\\\
+However should multiple violations happen, then a meeting shall be called with all members of the apartment.
 
 
 \newpage
