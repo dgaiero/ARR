@@ -17,4 +17,4 @@ In the beginning of the document, you must define the start and end date as well
 \newcommand{\personSix}{Person 6}
 ```
 
-Make sure you have the package ```tabu``` installed. Also, if youhave more or less thn six pple, you'll have to modify the tables and such.
+Make sure you have the package ```tabu``` installed. Also, if youhave more or less thn six people, you'll have to modify the tables and such.
