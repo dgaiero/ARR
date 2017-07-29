@@ -2,31 +2,37 @@
 
 \usepackage{geometry}
 \usepackage{titlesec}
+\usepackage{fancyhdr}
+\usepackage{fontspec}
 \usepackage{tabu}
+\usepackage{wasysym}
+\usepackage{hyperref}
+\setmainfont{Adobe Garamond Pro}
+%\setmainfont{Courier New}
 \geometry{letterpaper,tmargin=1in,bmargin=1in,lmargin=1.4in,rmargin=1.4in}
+
+
+\pagestyle{fancy}
+\fancyhf{}
+\lhead{Apartment Rules and Regulations}
+\rhead{\thepage}
 
 \titleformat{\section}
 {\normalfont\Large\bfseries}{\S\thesection}{1em}{}
 
-\newcommand{\dateEffective}{25\textsuperscript {th} of March 2017}
-\newcommand{\dateNullification}{25\textsuperscript {th} of March 2017}
+\newcommand{\dateEffective}{14\textsuperscript {th} of September 2017}
+\newcommand{\dateNullification}{9\textsuperscript {th} of December 2017}
 
-\newcommand{\personOne}{Person 1}
-\newcommand{\personTwo}{Person 2}
-\newcommand{\personThree}{Person 3}
-\newcommand{\personFour}{Person 4}
-\newcommand{\personFive}{Person 5}
-\newcommand{\personSix}{Person 6}
+\newcommand{\personOne}{Alexander Garcia}
+\newcommand{\personTwo}{Christian Low}
+\newcommand{\personThree}{Dominic Gaiero}
+\newcommand{\personFour}{Eric Grossman}
+\newcommand{\personFive}{Joey Paglia}
+\newcommand{\personSix}{Josiah Pang}
 
+\newcommand{\mailingAddress}{TBD}
 
-% Add sections about visitors
-% Guests - inform about noise considerations
-% 
-% 
-% Playing music in a room
-% Go to room first to take shoes off
-
-
+\thispagestyle{empty}
 \begin{document}
 	\begin{center}
 		{\Large Apartment Rules and Regulations}
@@ -40,10 +46,10 @@
 
 \vspace{.5cm}
 \noindent This Agreement is dated and in effect as of the \dateEffective, between these parties:\\
-\\
+
 \begin{center}
 
-\begin{tabu} to 0.8\textwidth {  X[l]  X[c]  X[r]  }
+\begin{tabu} to 0.8\textwidth {  X[c]  X[c]  X[c]  }
 	{\bf \personOne} & {\bf \personTwo} & {\bf \personThree}\\
 	{\bf {\bf \personFour}} & {\bf \personFive} & {\bf \personSix}\\
 \end{tabu}
@@ -51,13 +57,11 @@
 
 \end{center}
 \noindent (hereinafter the ``Client'', ``tenant'', or ``any party'')\\ \\
-
-\noindent This contract governs how the contracting parties behave in this apartment with mailing address 055 Cerro Vista Circle, San Luis Obispo California, 93410-1702 (henceforth called ``this apartment'' or ``the apartment''). This contract shall become effective (the ``Effective Date'') upon the date all of the contracting parties (hence forth called the ``tenant'' or ``any party'') have signed this document. This document shall stay in effect until the \dateNullification\space at 11:59:59 PM, at which point this Contract will terminate.
+\newpage
+\noindent This contract governs how the contracting parties behave in this apartment with mailing address \mailingAddress (henceforth called ``this apartment'' or ``the apartment''). This contract shall become effective (the ``Effective Date'') upon the date all of the contracting parties (hence forth called the ``tenant'' or ``any party'') have signed this document. This document shall stay in effect until the \dateNullification\space at 11:59:59 PM, at which point this Contract will terminate.
 \\ \\
 \noindent REPRESENTATION ON AUTHORITY OF PARTIES/SIGNATORIES: EACH PER-SON SIGNING THIS CONTRACT REPRESENTS AND WARRANTS THAT HE OR SHE IS DULY AUTHORIZED AND HAS LEGAL CAPACITY TO EXECUTE AND DELIVER THIS CONTRACT. EACH PARTY REPRESENTS AND WARRANTS TO THE OTHER THAT THE EXECUTION AND DELIVERY OF THE CONTRACT AND THE PERFORMANCE OF SUCH PARTY’S OBLIGATIONS HEREUNDER HAVE BEEN DULY AUTHORIZED AND THAT THE CONTRACT IS A VALID AND LEGAL AGREEMENT BINDING ON SUCH PARTY AND ENFORCEABLE IN ACCORDANCE WITH ITS TERMS. SEE THE FOLLOWING PAGE FOR SIGNATURES.
-
-\newpage
-\noindent By Signing this document, you agree to uphold all of the below mentioned rules and regulations and agree that a breach in any of the rules or regulations will result in disciplinary action.
+\noindent \newline\newline By Signing this document, you agree to uphold all of the below mentioned rules and regulations and agree that a breach in any of the rules or regulations will result in disciplinary action.
 \def\s#1#2{\vbox{\hsize=4.5cm
 		\kern2cm
 		\hrule\kern1ex
@@ -72,13 +76,16 @@
 	\s{\personFive}{Party 5}\hfil
 	\s{\personSix}{Party 6}}
 \newpage
+\tableofcontents
+\newpage
 \section{Footwear} \label{Footwear}
 This section covers the protocol with respect to footwear in and around the apartment.
 \begin{enumerate}
 	\item Once entering the apartment, all footwear will be removed.
-	\item Footwear can either be placed in the designated footwear storage bin or in one’s University ap-pointed bedroom.
+	\item Footwear can either be placed in the designated footwear storage bin or in one’s University appointed bedroom.
 	\item Footwear that is permitted on premises is limited to: Sandals that are worn indoor only, or in exterior spaces where copious amounts of dirt are not furnished.
 	\item If entering the apartment for less than five minutes, the footwear is permitted to stay on one’s feet
+	\item Footwear can be removed in one's university appointed bedroom unless the under of the footwear is wet, then it shall be removed at the entrance and may be placed in one's university appointed bedroom.
 	\item This rule will be enforced upon all guests and visitors who enter this apartment
 	
 \end{enumerate}
@@ -91,7 +98,7 @@ This section covers the protocol with respect to footwear in and around the apar
 \end{enumerate}
 
 \section{Kitchen} \label{Kitchen}
-This section covers the protocol with respect to cleaning and maintain the apartment kitchen.
+This section covers the protocol with respect to cleaning and maintain the apartment kitchen. In essence, there is no reason a dish should be left in the sink for longer than twenty-four hours. 
 \begin{enumerate}
 	\item Once a dish is used, it may be kept in the sink for no longer than twenty-four hours.
 	\item If the preparation of the dish requires use of any other tools, each tool will also be cleaned and placed in the drying rack no more than twenty-four hours after the previously stated tool is used. 
@@ -99,6 +106,7 @@ This section covers the protocol with respect to cleaning and maintain the apart
 	\item If any food should spill (either on the ground, or any other surface) it will be wiped up immediately.
 	\item Should Any dish be broken, it will be replaced within a timely manner.
 	\item When a roll of paper towel is completely used, it must be replaced immediately.
+	\textbf{\item Any person that leaves an item in the sink for longer than twenty-four hours shall put \$3 in the rainy-day fund. (Amount subject to change)}
 	
 \end{enumerate}
 \subsection{Kitchen - more information}
@@ -158,7 +166,7 @@ The thermostat shalt be set to sixty-nine, no more, no less. Sixty-nine shall be
 Music may be played in the apartment, but should the majority of the tenants not want to listen to the previously stated music, then the offending person shall listen to their music through headphones.
 \begin{enumerate}
 \item Music is permitted in the bathroom, but do not play it too loudly.
-\item Should any tenant wish to play music in their university appointed bedroom out loud, that music, once the door is closed, can only be heard, but the actual music cannot be discerned. 
+\item Should any tenant wish to play music in their university appointed bedroom out loud, that music, once the door is closed, should be at a maximum only be loud enough to be heard, but the actual music should not be discernible. 
 \end{enumerate}
 
 \section{Visitors and Guests} \label{Visitors and Guests}
@@ -173,10 +181,13 @@ Visitors are permitted in the apartment given that they follow the following reg
 	
 \end{enumerate}
 
-\section{Venmo and Reimbursement} \label{Venmo and Reinbursement}
+\section{Rainy Day Fund} \label{Rainy Day Fund}
+The rainy day fund is only for emergencies. When putting money into the rainy day fund or removing money from the fund, mark the amount that was either added or removed from the fund. The rainy day fund shall be given to one individual to look after and it shall be their responsibility to maintain control of the fund. At the close of the school
+
+\section{Venmo\textsuperscript{\textregistered}\space and Reimbursement} \label{Venmo and Reinbursement}
 This section covers the protocol for how to pay back any party.
 \begin{enumerate}
-	\item Should one contracting party purchase goods for the apartment, and place a charge in Splitwise or Venmo to get reimbursed for the charge, all other members must pay back the amount indicated on Splitwise within seven days.
+	\item Should one contracting party purchase goods for the apartment, and place a charge in Splitwise\textsuperscript{\textregistered} or Venmo\textsuperscript{\textregistered} to get reimbursed for the charge, all other members must pay back the amount indicated on Splitwise\textsuperscript{\textregistered} within seven days.
 	\item Should the majority (two-thirds) of the contracting members or members that were charged decide that the purchase should not be reimbursable, then the charge does not have to be reimbursed by any member which was charged for the previously stated good.
 	\item Should any of the charged parties be unable to reimburse the contracting party that purchased the previously stated good, then they must, within five business days state when they will be able to reimburse the payee for the previously stated good.
 	
@@ -188,7 +199,9 @@ This section covers the ramifications of a contract breach for any of the contra
 \\\\
 While serious ramifications are not possible due to the nature of this housing situation, some sort of punishment is in order.
 
-With this in mind, it seems that the only appropriate form of punishment (at least for the lesser violations) is some sort of baking. Any violator must bake some sort of delicious treat.
+With this in mind, it seems that the only appropriate form of punishment (at least for the lesser violations) is some sort of baking. Any violator must bake some sort of delicious treat.\smiley
+\\\\
+Some violations require the offender to deposit money into the rainy day fund (see \S \ref{Rainy Day Fund}). The amount that must be deposited per violation is stated in each section. Follow the guidelines per section for more information.
 \\\\
 However should multiple violations happen, then a meeting shall be called with all members of the apartment.
 
